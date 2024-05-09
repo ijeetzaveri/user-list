@@ -1,0 +1,17 @@
+p {
+  color: #cc1616;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.button-alignment {
+  margin: 25px !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  background-color: #4244a1 !important;
+  text-transform: capitalize !important;
+}

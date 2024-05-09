@@ -1,0 +1,8 @@
+p {
+  color: #cc1616;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
